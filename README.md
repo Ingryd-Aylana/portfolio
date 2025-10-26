@@ -1,16 +1,67 @@
-# React + Vite
+Portfólio — Ingryd Aylana
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio pessoal focado em Front-End com visual moderno, tema claro/escuro, animações suaves e forte atenção a acessibilidade.
+Inclui seções de Início, Sobre, Habilidades, Projetos, Serviços (com carrossel) e Contato.
 
-Currently, two official plugins are available:
+✨ Destaques
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎨 Tema Light/Dark com variáveis CSS e gradientes responsivos
 
-## React Compiler
+🧭 Navbar fixa com realce da seção ativa
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🖼️ Hero com foto, ícones decorativos e microanimações
 
-## Expanding the ESLint configuration
+🧰 Habilidades com “skill dots”
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧪 Projetos com chips de tecnologia e links
+
+🧱 Serviços em carrossel com estados prev/active/next
+
+💌 Contato com pills (E-mail, LinkedIn, GitHub, WhatsApp)
+
+📱 Totalmente responsivo
+
+⚡ Hover states coesos para About/Projects/Skills (dark & light)
+
+🛠️ Stack
+
+React + Vite 
+
+HTML + CSS + JavaScript (sem dependências pesadas)
+
+SVG/ícones inline
+
+Se o projeto estiver em React, os comandos abaixo também funcionam (Vite + React).
+
+🚀 Começando
+# 1) Instale as dependências
+npm install
+
+# 2) Suba o servidor de desenvolvimento
+npm run dev
+
+📁 Estrutura
+.
+├── index.html
+├── src/
+│   ├── Componentes
+│   │   └── portfolio.jsx   # JSX principal
+│   ├── styles/
+│   │   └── portfolio.css   # CSS principal (temas, seções, hovers)
+│   └── assets/
+│       └── images/         # logo, foto, etc.
+├── public/
+│   └── favicon.svg
+└── README.md
+
+🌐 Deploy 
+ Vercel
+
+🤝 Contribuindo
+
+Este é um portfólio pessoal; sinta-se à vontade para abrir issues com ideias e melhorias. PRs são bem-vindos!
+
+📄 Licença
+
+MIT
+ — use como base para o seu próprio portfólio.
