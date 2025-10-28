@@ -123,9 +123,9 @@ export default function Portfolio() {
       {
         title: "Projeto E-commerce",
         description:
-          "Loja virtual responsiva com carrinho de compras e integração de API",
-        tech: ["React", "Tailwind", "API REST"],
-        link: "#",
+          "Loja virtual responsiva com carrinho de compras",
+        tech: ["React", "JavaScript", "API REST"],
+        link: "https://rara-ecommerce.vercel.app/",
       },
       {
         title: "Dashboard Analytics",
@@ -138,14 +138,14 @@ export default function Portfolio() {
         title: "Landing Page",
         description:
           "Página de conversão moderna com animações e design responsivo",
-        tech: ["HTML", "CSS", "JavaScript"],
-        link: "#",
+        tech: ["React", "CSS", "JavaScript"],
+        link: "https://sunset-marketing.vercel.app/",
       },
       {
-        title: "App de Clima",
+        title: "Organize sua Festa",
         description:
-          "Aplicação que consome API de clima com busca por cidade",
-        tech: ["React", "API", "Bootstrap"],
+          "Aplicação para organização de uma festa com  lista de presentes, confirmação de presença",
+        tech: ["React", "API", "JavaScript", "Banco de dados"],
         link: "#",
       },
       {
