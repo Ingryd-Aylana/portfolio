@@ -146,7 +146,7 @@ export default function Portfolio() {
         description:
           "Aplicação para organização de uma festa com  lista de presentes, confirmação de presença",
         tech: ["React", "API", "JavaScript", "Banco de dados"],
-        link: "#",
+        link: "organiza-festa.vercel.app",
       },
       {
         title: "Portfólio Criativo",
@@ -159,7 +159,7 @@ export default function Portfolio() {
         description:
           "Aplicação de tarefas com filtros e armazenamento local",
         tech: ["JavaScript", "CSS", "LocalStorage"],
-        link: "#",
+        link: "https://to-do-task-list.vercel.app/",
       },
     ],
     []
